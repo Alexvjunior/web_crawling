@@ -32,3 +32,4 @@ for y in range(0, len(links)):
 obj = open('data.json', 'w+')
 obj.write(json.dumps(data))
 obj.close
+
